@@ -29,11 +29,10 @@ export const Navbar: React.FC = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <a href={social.link} target="_blank">
+            <a key={social.name} href={social.link} target="_blank">
               <Image
                 src={social.src}
                 alt={social.name}
-                key={social.name}
                 width={24}
                 height={24}
               />
