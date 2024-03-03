@@ -50,6 +50,11 @@ export const Socials = [
     link: "https://www.linkedin.com/in/kalpesh-shirudkar-48bb61179/",
   },
   {
+    name: "Github",
+    src: "/gitwhite.png",
+    link: "https://github.com/Kalpesh3011",
+  },
+  {
     name: "Instagram",
     src: "/instagram.svg",
     link: "https://www.instagram.com/kalpesh5020g?igsh=MXVueDZrZDBsZjE5dw==",

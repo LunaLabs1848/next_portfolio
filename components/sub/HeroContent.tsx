@@ -13,6 +13,7 @@ import Image from "next/image";
 export const HeroContent: React.FC = () => {
   return (
     <motion.div
+      id="about-me"
       initial="hidden"
       animate="visible"
       className="flex flex-col px-20 mt-24 w-full z-20"
@@ -47,12 +48,6 @@ export const HeroContent: React.FC = () => {
             I&apos;m an Experienced Frontend Developer Specializing in React,
             TypeScript, and TailwindCSS for Innovative Web Applications
           </motion.p>
-          <motion.a
-            variants={slideInFromLeft(1)}
-            className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          >
-            Learn More!
-          </motion.a>
         </div>
         <motion.div
           variants={slideInFromRight(0.8)}

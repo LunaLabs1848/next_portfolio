@@ -4,6 +4,7 @@ import "./globals.css";
 import { StarsCanvas } from "@/components/main/StarBackground";
 import { Navbar } from "@/components/main/Navbar";
 import { Skills } from "@/components/main/Skills";
+import { Footer } from "@/components/main/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Skills />
+        <Footer />
       </body>
     </html>
   );
