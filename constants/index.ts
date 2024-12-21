@@ -52,7 +52,7 @@ export const Socials = [
   {
     name: "Github",
     src: "/gitwhite.png",
-    link: "https://github.com/Kalpesh3011",
+    link: "https://github.com/LunaLabs1848",
   },
   {
     name: "Instagram",
